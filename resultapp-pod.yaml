@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: result-app-pod
+  lables: 
+    name: result-app-pod
+    app: demo-voitng-app
+spec:
+  containers:
+    - name: result-app
+      image: deep912/votingapp_result
+    
