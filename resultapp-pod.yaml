@@ -9,4 +9,5 @@ spec:
   containers:
     - name: result-app
       image: deep912/votingapp_result
-    
+      ports:
+        - containerPort: 80
